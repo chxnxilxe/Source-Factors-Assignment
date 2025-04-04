@@ -32,16 +32,16 @@ Inhaltlicher Aufbau eines Formulars:
 
 
 # Daten für die Studie
-## Artikelgenerierung mit R-Studio
+## Artikelgenerierung mit R-Studio (s. *Project*)
 Das R-Studio Projekt enthält
 - Ordner für alle 8 Inputartikel
 - CSV-Datei (articles.csv) mit Artikeltitel, Text, Quelle und Titel der weiterführenden Artikel: 8 Inputartikel manipuliert in low/high/fake/true language
 - Code für die Generierung (überarbeitet)
 Der Code ordnet die 8 Templates für high- und low-quality in zufälliger Reihenfolge und erstellt jeweils 8 Artikel (jede Iteration des ganzen Codes: 16 Artikel) mit den Texten von articles.csv.
-Der Index musss von 1-8, 9-16, 17-24, 25-32 angepasst werden, um alle 32 Texte von articles.csv zu verwenden - jede Iteration verwendet 8 Artikel -> 2 manipulierte Inputartikel
+Der Index muss von 1-8, 9-16, 17-24, 25-32 angepasst werden, um alle 32 Texte von articles.csv zu verwenden - jede Iteration verwendet 8 Artikel mit 2 manipulierten Inputartikel - Bilder wurden entsprechend eingefügt
 
 ## Generierte Artikel
 Die 64 fertigen Artikel wurden gescreenshottet und nach den Reizen in separaten Ordnern auf [Google Drive](https://drive.google.com/drive/folders/12vB-Tb_2l3PmFyk5MX5HoP9em54jEKbd?usp=sharing) geordnet
 
 # Ergebnisse der Datenauswertung
-Für die Datenauswertung haben wir *SPSS* verwendet.
+Für die Datenauswertung haben wir *SPSS* verwendet
