@@ -1,3 +1,41 @@
-# Source Factos Assignment
- 
-Hier sollen die notwendigen Daten für die Studie gesammelt und dokumentiert werden.
+# Source Factors Assignment
+Abgabe für den Kurs *'Informationsverhalten verstehen und verarbeiten'*.
+
+Hier wurden die Daten für und von der Studie dokumentiert (nachträglich).
+
+# Formalitäten
+## Overleaf-Projekt
+s. Anhang
+
+# Studie
+## Appscript Projekt
+Die Web-App wurde mit *Google-Appscript* erstellt, die die Teilnehmenden zu einem der 8 Google Forms weiterleitet (zufällig).
+Inhaltlicher Aufbau:
+- Willkommensseite
+- Einverständniserklärung
+- Weiterleitung zu einem der 8 Google-Forms
+
+https://script.google.com/d/12qTPKH99RxdrZaPnrXIHR_y1fZ7tqdMHAH6OesRuVW47habvdjR_W8pN/edit?usp=sharing
+
+## Verlinkung zu Google-Forms
+Inhaltlicher Aufbau eines Formulars:
+- Bewertung von 8 Artikeln (*Artikel 1*: 1 von 8 Reizen für den 1. Inputartikel, *Artikel 2*: 1 von 8 Reizen für den 2. Inputartikel)
+- Fragen zur Selbsteinschätzung 
+
+https://drive.google.com/drive/folders/1Qjl_7AUZGGmSOF9uxcONkYxvLVjTEcDF?usp=sharing
+
+# Daten für die Studie
+## Artikelgenerierung mit R-Studio
+R-Studio Projekt enthält
+- Ordner für alle 8 Inputartikel
+- CSV-Datei (articles.csv) mit Artikeltitel, Text, Quelle und Titel der weiterführenden Artikel: 8 Inputartikel manipuliert in low/high/fake/true language
+- Code für die Generierung (überarbeitet)
+Der Code ordnet die 8 Templates für high- und low-quality in zufälliger Reihenfolge und erstellt jeweils 8 Artikel (jede Iteration des ganzen Codes: 16 Artikel) mit den Texten von articles.csv.
+Der Index musss von 1-8, 9-16, 17-24, 25-32 angepasst werden, um alle 32 Texte von articles.csv zu verwenden - jede Iteration verwendet 8 Artikel -> 2 manipulierte Inputartikel
+
+## Generierte Artikel
+Die 64 fertigen Artikel wurden gescreenshotted und nach den Reizen in separaten Ordnern auf Google Drive geordnet:
+https://drive.google.com/drive/folders/12vB-Tb_2l3PmFyk5MX5HoP9em54jEKbd?usp=sharing
+
+# Ergebnisse der Datenauswertung
+Für die Datenauswertung haben wir *SPSS* verwendet.
