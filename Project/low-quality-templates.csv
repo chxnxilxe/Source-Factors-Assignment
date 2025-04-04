@@ -1,0 +1,1298 @@
+﻿template;css
+1;"/* General Styles */
+body {
+  font-family: 'Verdana', sans-serif; /* Plausible professional font */
+  background-color: #f8f9fa; /* Light gray background */
+  color: #222; /* Dark text */
+  margin: 0;
+  padding: 0;
+  max-width: 70%; /* Restrict the page width to 70% */
+  margin-left: auto; /* Center the content */
+  margin-right: auto; /* Center the content */
+}
+
+/* Top Advertisement */
+.top-ad {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-ad img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+header {
+  background-color: #ff4500; /* Bright orange header for visual impact */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+header .logo {
+  font-family: 'Impact', sans-serif; /* Bold, eye-catching font */
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+/* Category Bar */
+.category-bar {
+  background-color: #333; /* Dark background for category bar */
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.category-bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.category-bar a:hover {
+  color: #ff4500; /* Highlight on hover */
+}
+
+/* Content Layout */
+.container {
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr; /* Adjust proportions for sidebars and main content */
+  gap: 20px;
+}
+
+/* Main Article */
+.main-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.main-content .meta-info {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  line-height: 1.6;
+  color: #444;
+}
+
+.main-content img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Social Media Widget */
+.social-media-widget {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-media-widget img {
+  max-width: 50px; /* Restrict the size of the widget image */
+  height: auto;
+}
+
+/* Advertisements */
+.sidebar {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar img {
+  max-width: unset; /* Ignore inherited max-width */
+  max-height: unset; /* Ignore inherited max-height */
+  width: 90%; /* Explicitly set the width */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 10px auto; /* Center horizontally */
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #ff4500;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}"
+2;"/* General Styles */
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Over-the-top font for a \""low-quality\"" feel */
+  background-color: #e6e6e6; /* Light beige background */
+  color: #111; /* Slightly softer black text */
+  margin: 0;
+  padding: 0;
+  max-width: 70%; /* Restrict the page width to 70% */
+  margin-left: auto; /* Center the content */
+  margin-right: auto; /* Center the content */
+}
+
+/* Top Advertisement */
+.top-ad {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-ad img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+header {
+  background-color: #0056b3; /* Bright blue for attention-grabbing header */
+  color: #fff;
+  text-align: center; /* Left-aligned for a disorganized feel */
+  padding: 20px 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header .logo {
+  font-family: serif; /* Unprofessional font for the logo */
+  font-size: 3em;
+  text-transform: capitalize;
+  color: yellow; /* Clashing yellow text for poor design */
+}
+
+/* Category Bar */
+.category-bar {
+  background-color: #444; /* Darker gray for contrast */
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9em;
+  border-bottom: 3px solid #0056b3; /* Match the header color */
+}
+
+.category-bar a {
+  color: #ffc107; /* Gold text for a jarring effect */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.category-bar a:hover {
+  color: #dc3545; /* Bright red on hover */
+  text-decoration: underline;
+}
+
+/* Content Layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr; /* Adjusted wider main content */
+  gap: 10px;
+  padding: 15px;
+}
+
+/* Main Article */
+.main-content {
+  background-color: #fff;
+  padding: 25px;
+  border: 2px dashed #111; /* Dashed border for an unpolished look */
+  border-radius: 8px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.main-content h1 {
+  font-size: 2.2em;
+  font-family: 'Impact', sans-serif; /* Bold, stark font */
+  color: #0056b3;
+  text-transform: uppercase;
+}
+
+.main-content .meta-info {
+  font-size: 0.8em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.main-content p {
+  line-height: 1.5;
+  font-size: 1.1em;
+  color: #222;
+}
+
+.main-content img {
+  max-width: 100%;
+  margin: 20px 0;
+  border: 2px solid #0056b3; /* Border to \""trap\"" the image */
+}
+
+/* Advertisements */
+.sidebar {
+  background-color: #fff;
+  padding: 15px;
+  border: 2px dotted #444; /* Dotted border for lack of refinement */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sidebar img {
+  max-width: 90%; /* Smaller size for cluttered look */
+  height: auto;
+  border: 2px solid #ffc107; /* Gold border for visibility */
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 1em;
+}
+
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}"
+3;"/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top Advertisement */
+.top-ad {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-ad img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+header {
+  background-color: #1a3d2f;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header .logo {
+  font-family: 'Impact', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* Category Bar */
+.category-bar {
+  background-color: #2a513d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.category-bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.category-bar a:hover {
+  color: #ffcc00;
+}
+
+/* Content Layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Main Content */
+.main-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h1 {
+  font-size: 2em;
+  color: #1a3d2f;
+  margin-bottom: 15px;
+}
+
+.main-content .meta-info {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.main-content img {
+  max-width: 100%;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+/* Sidebars */
+.sidebar {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #1a3d2f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}"
+4;"/* General Styles */
+body {
+  font-family: 'Arial Black', sans-serif; /* Bold and clean font */
+  background-color: #ffffff; /* White background */
+  color: #000; /* Black text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #ffffff; /* White background */
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #f1f1f1; /* Subtle border */
+  box-sizing: border-box;
+}
+
+header .logo {
+  display: inline-block;
+  background-color: #e10000; /* Red background for BILD logo */
+  color: #ffffff; /* White text */
+  font-size: 2.5em; /* Large font size */
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 3px; /* Slight rounding for aesthetic */
+  box-sizing: border-box;
+}
+
+/* Top Advertisement */
+.top-ad {
+  text-align: center;
+  background-color: #f1f1f1; /* Light gray background */
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+
+.top-ad img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Category Bar */
+.category-bar {
+  background-color: #ffffff; /* White background */
+  color: #555555; /* Grey font for text */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Spacing between categories */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+  text-transform: uppercase; /* Make all text uppercase */
+  font-family: 'Arial', sans-serif; /* Clean font */
+  font-size: 0.9em; /* Slightly smaller font size */
+}
+
+.category-bar a {
+  color: #555555; /* Grey text color */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px; /* Add padding for clickable area */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.category-bar a:hover {
+  color: #e10000; /* Red text on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect */
+}
+
+/* Content Layout */
+.container {
+  display: flex;
+  flex-direction: column; /* Single column layout for simplicity */
+  align-items: center; /* Center-align content */
+  max-width: 1500px; /* Restrict max-width */
+  width: 100%; /* Scale with screen size */
+  margin: 0 auto; /* Center on page */
+  padding: 20px;
+  gap: 20px;
+  box-sizing: border-box; /* Include padding in the element’s total width */
+}
+
+/* Main Article */
+.main-content {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 5px;
+  max-width: 1000px; /* Restrict content width */
+  width: 100%; /* Ensure responsiveness */
+  box-sizing: border-box; /* Include padding in the total width */
+}
+
+.main-content h1 {
+  font-family: 'Poppins'; /* Clean font */
+  font-size: 4em; /* Large headline font */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+  text-align: left; /* Align text to left */
+}
+
+.main-content .meta-info {
+  font-size: 1em;
+  color: #777;
+  margin-bottom: 15px;
+  text-align: left; /* Align meta info to left */
+}
+
+.main-content img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px auto; /* Center images */
+  display: block;
+}
+
+/* Article Text */
+.article-text p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: left; /* Align text to left */
+}
+
+/* Sidebar (Related Headlines or Ads) */
+.sidebar {
+  display: none;
+}
+
+.related-articles {
+  display: none;
+}
+
+.related-article {
+  display: none;
+}
+
+.related-article img {
+  width: 60px; /* Thumbnail size */
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.related-headline {
+  font-size: 1em;
+  color: #000;
+  text-decoration: none;
+}
+
+.related-headline:hover {
+  color: #e10000; /* Red hover effect */
+}
+
+/* Footer */
+footer {
+  background-color: #f1f1f1; /* Light gray background */
+  color: #000;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #e10000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}"
+5;"/* General Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Clean, professional font */
+  background-color: #ffffff; /* White background */
+  color: #333; /* Dark grey text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+.logo-star {
+  background-image: url('Red_bordered_white_star.svg'); /* Link to your star SVG */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  margin-right: -100px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Vertically align star and text */
+  justify-content: center; /* Center-align logo in the header */
+  gap: 20px; /* Add space between the star and text */
+  padding: 20px 0; /* Adjust padding for spacing */
+  position: relative; /* Ensure proper placement */
+}
+
+.logo {
+  font-size: 8em;
+  font-weight: bold;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.logo .first-word {
+  color: #000; /* Black for first word */
+  text-decoration: underline;
+  text-decoration-color: #e10000; /* Red underline */
+  text-decoration-thickness: 10px;
+  text-underline-offset: 10px;
+}
+
+.logo .remaining-words {
+  color: #e10000; /* Red for remaining words */
+  text-decoration: underline;
+  text-decoration-color: #000; /* Black underline */
+  text-decoration-thickness: 10px;
+  text-underline-offset: 10px;
+}
+
+/* Top Advertisement */
+.top-ad {
+  text-align: center;
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; /* Subtle border */
+}
+
+.top-ad img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation Bar */
+.category-bar {
+  background-color: #ffffff; /* White background */
+  color: #555; /* Grey font for text */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Spacing between categories */
+  border-bottom: 1px solid #ddd; /* Subtle border */
+  text-transform: uppercase; /* Make all text uppercase */
+  font-size: 1.1em;
+}
+
+.category-bar a {
+  color: #555; /* Grey text color */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+.category-bar a:hover {
+  color: #e10000; /* Red text on hover */
+}
+
+/* Content Layout */
+.container {
+  display: flex; /* Horizontal layout */
+  justify-content: space-between; /* Ensure spacing between main content and sidebar */
+  align-items: flex-start; /* Align items to the top */
+  max-width: 60%; /* Restrict maximum width of the entire container */
+  margin: 0 auto; /* Center the container */
+  gap: 20px; /* Space between main content and sidebar */
+}
+
+/* Main Content */
+.main-content {
+  flex: 2; /* Give more space to the main content */
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.main-content h1 {
+  font-size: 3.5em; /* Adjust headline size */
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+/* Social Media Widget */
+.social-media-widget {
+  order: 1; /* Place the widget after the headline */
+  margin: 20px 0; /* Add spacing above and below the widget */
+  text-align: center;
+}
+
+.social-media-widget img {
+  width: 800px; /* Adjust size of social media icons */
+  height: auto;
+  margin: 5px;
+  cursor: pointer; /* Indicate it's clickable */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.social-media-widget img:hover {
+  transform: scale(1.1); /* Enlarge on hover */
+}
+
+/* Main Image */
+.main-content img.main-image {
+  margin-top: 20px; /* Add space above the image */
+  order: 2; /* Place the image after the social media widget */
+  max-width: 100%; 
+  border-radius: 5px;
+}
+
+.article-text p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify; /* Make text more readable */
+}
+
+/* Sidebar Section */
+.sidebar {
+  flex: 0.3; /* Reduce the width of the sidebar relative to the main content */
+  max-width: 180px; /* Explicitly limit the width */
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .related-articles {
+  margin-top: 20px;
+}
+
+.sidebar .related-article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sidebar .related-article img {
+  width: 50px; /* Smaller thumbnails */
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.sidebar .related-headline {
+  font-size: 0.9em; /* Smaller font size for headlines */
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar .related-headline:hover {
+  color: #e10000; /* Red hover effect */
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  color: #000;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #e10000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}"
+6;"/* General Styles */
+body {
+  font-family: 'Georgia', serif; /* Elegant serif font */
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark gray text for readability */
+  margin: 0;
+  padding: 0;
+  line-height: 1.8; /* Improve readability */
+}
+
+/* Header Section */
+header {
+  background-color: #ffffff; /* Creamy background */
+  /*border-bottom: 2px solid #c4b9ab;  Light brown-gray border */
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .logo {
+  font-size: 2.5em; /* Adjust logo size */
+  font-weight: bold;
+  color: #7c4b31; /* Brown for the logo */
+}
+
+/* Navigation Bar */
+.category-bar {
+  background-color: #ffffff; /* Match header background */
+  color: #555; /* Grey font for text */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Spacing between categories */
+  text-transform: uppercase; /* Make all text uppercase */
+  font-size: 0.9em; /* Slightly smaller font size */
+  /*border-bottom: 2px solid #c4b9ab;  Match header border */
+}
+
+.category-bar a {
+  color: #555; /* Grey text color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.category-bar a:hover {
+  color: #7c4b31; /* Brown hover effect */
+}
+
+/* Container */
+.container {
+  max-width: 1000px; /* Restrict width for a single-column layout */
+  margin: 0 auto; /* Center content */
+  padding: 20px;
+  background-color: #ffffff; /* White background for content */
+  border-radius: 5px; /* Rounded corners for aesthetics */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid #c4b9ab; /* Light brown-gray border */
+}
+
+/* Headline Section */
+.headline {
+  font-size: 2em; /* Larger headline font */
+  font-weight: bold;
+  color: #7c4b31; /* Brown headline */
+  margin-bottom: 10px;
+}
+
+.meta-info {
+  font-size: 0.9em;
+  color: #777; /* Subtle gray for meta info */
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* Social Media Widget */
+.social-media-widget {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.social-media-widget img {
+  max-width: 40px; /* Icon size */
+  margin-right: 10px;
+  display: inline-block;
+}
+
+/* Advertisement Section */
+.advert {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.advert img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #dedede; /* Subtle border for ads */
+}
+
+/* Main Article */
+.main-content {
+  margin-top: 20px;
+}
+
+.main-content h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
+  color: #333;
+  border-top: 2px solid #c4b9ab; /* Light brown-gray border */
+}
+
+footer a {
+  color: #7c4b31; /* Brown links in footer */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}"
+7;"/* General Page Styles */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #ffffff;
+color: #000000;
+}
+
+/* Page Borders */
+body, html {
+border: 10px solid #000000; /* Thick black border around the entire page */
+box-sizing: border-box;
+}
+
+header {
+background-color: #ffffff; /* White background */
+color: #000000; /* Black text */
+padding: 30px 350px 50px; /* Reduce padding for tighter alignment */
+display: flex;
+justify-content: space-between; /* Space out logo and image */
+align-items: flex-end; /* Align logo and image with the bottom of the header */
+/* border-bottom: 5px solid #000000; Black border below the header */
+position: relative; /* Allow positioning of background image */
+height: auto; /* Adjust height dynamically based on content */
+}
+
+/* Logo Container */
+.logo-container {
+display: flex;
+align-items: flex-end; /* Align the logo with the bottom of the header */
+margin-right: 10px; /* Add a small gap between the logo and image */
+}
+
+/* Background Image for Header */
+header::after {
+content: \""\""; /* Image placeholder */
+width: 350px; /* Set image width */
+height: 100px; /* Set image height */
+background-image: url('social_media_bars/trust-truth.png'); /* Replace with your image URL */
+background-size: contain; /* Scale the image while maintaining aspect ratio */
+background-repeat: no-repeat;
+background-position: center;
+margin-left: 10px; /* Add space between logo and image */
+}
+
+
+/* Navigation Links */
+header .navigation a {
+color: #000000; /* Black text for links */
+margin: 0 10px;
+text-decoration: none;
+font-size: 14px;
+}
+
+/* Logo Styles
+.logo-container {
+display: flex;
+align-items: center;
+justify-content: center;
+}*/
+
+.logo {
+font-family: 'Lilita One';
+font-size: 3em; /* Adjust size as needed */
+font-weight: bold;
+text-transform: uppercase;
+display: flex;
+}
+
+.logo .first-word {
+background-color: #000000; /* Black background */
+color: #ffffff; /* White text */
+padding: 10px 15px;
+display: inline-block;
+}
+
+.logo .remaining-words {
+border: 2px solid #000000;
+background-color: #ffffff; /* White background */
+color: #000000; /* Black text */
+padding: 10px 15px;
+display: inline-block;
+margin-left: 5px;
+}
+
+/* Category Bar */
+.category-bar {
+background-color: #ffffff; /* White background */
+border-bottom: 5px solid #000000; /* Black border below the category bar */
+padding: 10px 20px;
+text-align: center;
+text-transform: uppercase; /* Convert text to uppercase */
+font-size: 22px; /* Slightly larger font size */
+font-weight: bold; /* Make it bold for emphasis */
+}
+
+.category-bar a {
+color: #000000; /* Black text */
+margin: 0 10px;
+text-decoration: none;
+font-size: 30pt; /* Inherit the font size from the category bar */
+}
+
+/* Main Content */
+.main-content {
+width: 60%;
+font-size: 12pt;
+margin: 20px auto;
+text-align: left;
+border-bottom: 5px solid #000000; /* Black border below main content */
+padding-bottom: 20px;
+}
+
+.main-content h1 {
+font-size: 44px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+
+.meta-info {
+font-size: 12px;
+color: #666666;
+margin-bottom: 20px;
+}
+
+.main-content img.main-image {
+width: 80%;
+margin: 20px 0;
+justify-content: center;
+}
+
+.article-text {
+font-size: 20px;
+line-height: 1.5;
+text-align: justify;
+}
+
+/* Sidebar Styles */
+.sidebar {
+display: none; /* Make the sidebar invisible */
+}
+
+.related-articles {
+display: none; /* Make the related articles invisible */
+}
+
+/* Footer Styles */
+footer {
+background-color: #ffffff; /* White background */
+color: #000000; /* Black text */
+text-align: center;
+padding: 10px 0;
+margin-top: 20px;
+font-size: 14px;
+border-top: 5px solid #000000; /* Black border above the footer */
+}
+
+/* Social Media Widget */
+.social-media-widget img {
+width: 30px;
+margin: 5px;
+}
+
+/* Top Advertisement */
+.top-ad {
+text-align: center;
+margin: 10px 0;
+}
+
+.top-ad img {
+width: 100%;
+max-width: 728px;
+height: auto;
+}"
+8;"/* General Reset */
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/* General Styles */
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* Container for Fixed-Width Content */
+.container {
+display: flex;
+width: 1400px; /* Matches header width */
+background-color: #ffffff;
+padding: 20px; /* Add padding for spacing */
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+overflow: hidden; /* Prevent content spillage */
+}
+
+/* Left and Right Borders */
+body::before,
+body::after {
+content: \""\"";
+flex-grow: 1;
+background-color: #e0e0e0;
+}
+
+body {
+display: flex;
+}
+
+/* Header */
+header {
+width: 1400px; /* Matches container width */
+background-color: #ffffff;
+padding: 30px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 2px solid #ddd;
+}
+
+/* Adjust Margins and Box-Sizing */
+header, .container {
+margin: 0 auto; /* Center content */
+}
+
+header::after {
+content: \""\""; /* Image placeholder */
+width: 750px; /* Set image width */
+height: 100px; /* Set image height */
+background-image: url('social_media_bars/express-social.png'); /* Replace with your image URL */
+background-size: contain; /* Scale the image while maintaining aspect ratio */
+background-repeat: no-repeat;
+background-position: center;
+margin-left: 10px; /* Add space between logo and image */
+}
+
+/* Logo Styling */
+.logo-container {
+display: flex;
+align-items: center;
+}
+
+.logo {
+font-family: Georgia, serif;
+font-size: 80px; /* Increased font size */
+font-weight: bold;
+text-transform: uppercase;
+}
+
+/* Social Media Widget */
+.social-media-widget img {
+height: 45px;
+}
+
+/* Category Navigation Bar */
+.category-bar {
+width: 1400px; /* Matches header and container */
+background-color: #ffffff;
+text-align: center;
+padding: 12px 0;
+border-bottom: 2px solid #ddd;
+}
+
+.category-bar a {
+text-decoration: none;
+color: black;
+font-family: Georgia, serif; /* Same as logo */
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+margin: 0 20px;
+}
+
+.category-bar a:hover {
+color: red;
+}
+
+/* Main Content Area */
+.main-content {
+width: 65%; /* Allocates 65% of container width */
+padding: 20px; /* Add spacing within content */
+}
+
+.main-content h1 {
+font-family: Georgia, serif;
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.meta-info {
+font-size: 14px;
+color: gray;
+margin-bottom: 10px;
+}
+
+.main-image {
+width: 100%;
+max-width: 100%; /* Ensure image doesn't exceed container width */
+margin-bottom: 20px;
+}
+
+.article-text {
+font-size: 16px;
+line-height: 1.6;
+}
+
+/* Related Articles Section */
+
+/* Sidebar Styles */
+.sidebar {
+display: none; /* Make the sidebar invisible */
+}
+.related-articles {
+width: 30%; /* Allocates 30% of container width */
+padding: 20px; /* Add spacing */
+border-left: 2px solid #ddd; /* Separator for clarity */
+}
+
+.related-articles h2 {
+color: red;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.related-article {
+margin-bottom: 10px;
+}
+
+.related-headline {
+font-size: 14px;
+text-decoration: none;
+color: black;
+}
+
+.related-headline:hover {
+color: red;
+}
+
+.related-image {
+width: 100%;
+max-width: 100%; /* Prevent image from spilling */
+height: auto;
+margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+width: 1400px; /* Matches container width */
+background-color: #333;
+color: white;
+text-align: center;
+text-transform: uppercase;
+padding: 15px 0;
+margin-top: 20px;
+}"
