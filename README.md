@@ -20,8 +20,10 @@ Inhaltlicher Aufbau:
 - Weiterleitung zu einem der 8 Google-Forms
 
 ## Verlinkung zu Google-Forms
-[Link zum Google-Forms](https://drive.google.com/drive/folders/1Qjl_7AUZGGmSOF9uxcONkYxvLVjTEcDF?usp=sharing
+[Link zum Google-Forms + Einverständniserklärung](https://drive.google.com/drive/folders/1Qjl_7AUZGGmSOF9uxcONkYxvLVjTEcDF?usp=sharing
 )
+
+Die Einverständniserklärung wurde mit dem [Informed Consent Generator](https://hci-studies.org/informed-consent-generator/) generiert.
 
 Inhaltlicher Aufbau eines Formulars:
 - Bewertung von 8 Artikeln (*Artikel 1*: 1 von 8 Reizen für den 1. Inputartikel, *Artikel 2*: 1 von 8 Reizen für den 2. Inputartikel)
