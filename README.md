@@ -3,30 +3,35 @@ Abgabe für den Kurs *'Informationsverhalten verstehen und verarbeiten'*.
 
 Hier wurden die Daten für und von der Studie dokumentiert (nachträglich).
 
-# Formalitäten
-## Overleaf-Projekt
-s. Anhang
+# Overleaf-Projekt
+[Link zum Overleaf-Projekt](https://www.overleaf.com/read/fcmmprhfprfn#de472f
+)
+
 
 # Studie
 ## Appscript Projekt
+[Link zum Appscript-Projekt](https://script.google.com/d/12qTPKH99RxdrZaPnrXIHR_y1fZ7tqdMHAH6OesRuVW47habvdjR_W8pN/edit?usp=sharing
+)
+
 Die Web-App wurde mit *Google-Appscript* erstellt, die die Teilnehmenden zu einem der 8 Google Forms weiterleitet (zufällig).
 Inhaltlicher Aufbau:
 - Willkommensseite
 - Einverständniserklärung
 - Weiterleitung zu einem der 8 Google-Forms
 
-https://script.google.com/d/12qTPKH99RxdrZaPnrXIHR_y1fZ7tqdMHAH6OesRuVW47habvdjR_W8pN/edit?usp=sharing
-
 ## Verlinkung zu Google-Forms
+[Link zum Google-Forms](https://drive.google.com/drive/folders/1Qjl_7AUZGGmSOF9uxcONkYxvLVjTEcDF?usp=sharing
+)
+
 Inhaltlicher Aufbau eines Formulars:
 - Bewertung von 8 Artikeln (*Artikel 1*: 1 von 8 Reizen für den 1. Inputartikel, *Artikel 2*: 1 von 8 Reizen für den 2. Inputartikel)
+- Demographische Daten
 - Fragen zur Selbsteinschätzung 
 
-https://drive.google.com/drive/folders/1Qjl_7AUZGGmSOF9uxcONkYxvLVjTEcDF?usp=sharing
 
 # Daten für die Studie
 ## Artikelgenerierung mit R-Studio
-R-Studio Projekt enthält
+Das R-Studio Projekt enthält
 - Ordner für alle 8 Inputartikel
 - CSV-Datei (articles.csv) mit Artikeltitel, Text, Quelle und Titel der weiterführenden Artikel: 8 Inputartikel manipuliert in low/high/fake/true language
 - Code für die Generierung (überarbeitet)
