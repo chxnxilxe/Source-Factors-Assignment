@@ -1,0 +1,1243 @@
+﻿template;css
+1;"/* General Styles */
+body {
+  font-family: 'Georgia', 'Times New Roman', serif; 
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header Section */
+header {
+  background-color: #052962; 
+  color: white;
+  padding: 15px 0;
+}
+
+header .container {
+  max-width: 1200px; /* Centralize content */
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between; /* Space between burger menu, logo, and user icon */
+  align-items: center;
+}
+
+/* Logo Styling */
+header .logo {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  flex-grow: 1; /* Push logo to the center */
+}
+
+/* Burger Menu */
+.burger-menu {
+  display: flex;
+  align-items: center; /* Vertically align the lines and the \""Menu\"" text */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.burger-menu .lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space the lines evenly */
+  width: 30px; /* Fixed width for the lines container */
+  height: 18px; /* Total height for the three lines */
+}
+
+.burger-menu .lines div {
+  width: 100%; /* Full width for each line */
+  height: 3px; /* Thickness of each line */
+  background-color: white; /* White lines for visibility */
+  border-radius: 2px; /* Rounded edges for a cleaner look */
+}
+
+/* 'Menu' Text */
+.burger-menu .menu-text {
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 10px; /* Spacing between the burger lines and text */
+  line-height: 18px; /* Align with the total height of the burger menu */
+}
+
+
+/* Category Bar */
+.category-bar {
+  background-color: #052962;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1em;
+}
+
+.category-bar .category {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.category-bar .category a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.category-bar .category:not(:last-child)::after {
+  content: \""\"";
+  display: block;
+  height: 16px;
+  width: 1px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+}
+
+.category-bar a:hover {
+  background-color: #003e80;
+  border-radius: 5px;
+}
+
+/* Content Layout */
+.container.content-layout {
+  max-width: 1200px; /* Centralize the main content and sidebar */
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+}
+
+.main-content {
+  flex: 3;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #052962;
+}
+
+.main-content img {
+  width: 80%;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.main-content p {
+  margin-bottom: 1.5em;
+  color: #444;
+}
+
+.meta-info {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Sidebar Section */
+.sidebar {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .related-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar .related-article img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar .related-headline {
+  text-decoration: none;
+  color: #052962;
+  font-weight: bold;
+}
+
+.sidebar .related-headline:hover {
+  text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+  max-width: 1200px; /* Ensure footer stays within the container */
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin: 20px auto;
+  font-size: 0.9em;
+}
+
+/* Social Media Bar */
+.social-media-bar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-media-bar a {
+  text-decoration: none;
+  color: #052962;
+  font-weight: bold;
+}
+
+.social-media-bar a:hover {
+  text-decoration: underline;
+}"
+2;"General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Header Section */
+header {
+  background-color: #000; /* Black background */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+/* Title Styling */
+header .logo {
+  font-family: 'Georgia', serif;
+  font-size: 2.5em; /* Adjust font size */
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* First Letter Styling */
+header .logo::first-letter {
+  font-size: 1.5em; /* Make it slightly larger */
+  color: black; /* Black text inside the square */
+  background-color: white; /* White square background */
+  padding: 5px 10px; /* Padding for the square */
+  margin-right: 5px; /* Add spacing from the rest of the text */
+  border-radius: 2px; /* Slightly rounded edges */
+  display: inline-block; /* Keep it inline */
+  text-align: center;
+}
+
+/* Category Bar */
+.category-bar {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Add spacing between categories */
+  background-color: #444; /* Dark gray background for the category bar */
+  color: white;
+  padding: 10px 0;
+}
+
+.category-bar a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.category-bar a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Layout */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Main Article Column */
+.main-content {
+  flex: 3;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Related Articles Styling */
+.sidebar .related-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar .related-article img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar .related-article a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.sidebar .related-article a:hover {
+  color: #d32f2f; /* Red text on hover */
+}
+
+/* Main Image */
+.main-image {
+  width: 85%;
+  max-height: 400px;
+  object-fit: cover;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+/* Meta Info */
+.meta-info {
+  font-size: 0."
+3;"/* General Styles */
+body {
+  font-family: 'Times New Roman', Georgia, serif; /* Elegant serif font */
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
+}
+
+/* Center Content */
+.container {
+  max-width: 1200px; /* Maximum width for content */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0px; /* Add padding for spacing */
+}
+
+/* Header Section */
+header {
+  background-color: #ffffff; /* White background for header */
+  color: black;
+  border-bottom: 1px solid #ccc; /* Subtle border for separation */
+  padding: 10px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between; /* Spread elements evenly */
+  align-items: center; /* Center elements vertically */
+}
+
+/* Burger Menu Icon */
+header .burger-menu img {
+  width: 32px; /* Icon size */
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer; /* Make it clickable */
+}
+
+/* Logo Styling */
+header .logo {
+  font-family: 'Times New Roman', Georgia, serif; /* Serif font for elegance */
+  font-size: 2.5em; /* Prominent size for the publication logo */
+  font-weight: bold;
+  text-transform: uppercase; /* All caps for professionalism */
+  color: #000; /* Black text */
+  margin: 0 auto; /* Center the logo */
+  text-align: center; /* Align text in the center */
+}
+
+/* User/Login Icon */
+header .user-icon img {
+  width: 48px; /* Increased size by 50% */
+  height: 48px;
+  object-fit: contain;
+  cursor: pointer; /* Make it clickable */
+}
+
+/* Category Navigation Bar */
+.category-bar {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Spacing between categories */
+  font-family: 'Georgia', serif; /* Elegant serif font */
+}
+
+.category-bar .category a {
+  text-decoration: none;
+  color: #000; /* Black text */
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.category-bar .category a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content and Sidebar Layout */
+.content-layout {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  gap: 20px; /* Space between main content and sidebar */
+}
+
+/* Main Content */
+.main-content {
+  flex: 3; /* Larger space for main content */
+  background-color: white;
+  padding: 0px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.main-content h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.main-content .meta-info {
+  font-size: 0.9em;
+  color: #777; /* Muted text for metadata */
+  margin-bottom: 20px;
+}
+
+.main-content img {
+  width: 100%;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.main-content p {
+  margin-bottom: 1em;
+  color: #444;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1; /* Sidebar is smaller */
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.sidebar .related-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Spacing between related articles */
+}
+
+.sidebar .related-article img {
+  width: 40px; /* Circular images */
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.sidebar .related-headline {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+  background-color: #f9f9f9;
+  color: #666;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  border-top: 1px solid #ccc;
+}"
+4;"
+ /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark text for readability */
+}
+
+/* Container for Width Control */
+.container {
+  max-width: 1200px; /* Fixed width for layout */
+  margin: 0 auto; /* Center the container */
+  padding: 0 0px; /* Add padding for spacing */
+}
+
+/* Header Section */
+header {
+  background-color: #0056b3; /* Bold blue background */
+  color: white;
+  padding: 15px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger-menu img,
+.user-icon img {
+  width: 35px; /* Icon size */
+  height: 35px; /* Icon size */
+  object-fit: contain;
+}
+
+.burger-menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Logo Styling */
+header .logo {
+  font-family: 'Georgia', serif; /* Distinct serif font */
+  font-size: 2.5em; /* Larger size for logo text */
+  font-weight: bold;
+}
+
+/* Category Bar */
+.category-bar {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Spacing between categories */
+}
+
+.category-bar .category a {
+  text-decoration: none;
+  color: #0056b3; /* Blue text */
+  font-weight: bold;
+}
+
+.category-bar .category a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content and Sidebar Layout */
+.content-layout {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  gap: 20px; /* Space between main content and sidebar */
+}
+
+/* Main Content */
+.main-content {
+  flex: 3; /* Larger space for main content */
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.main-content h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.main-content .meta-info {
+  font-size: 0.9em;
+  color: #777; /* Muted text for metadata */
+  margin-bottom: 20px;
+}
+
+.main-content img {
+  width: 100%;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.main-content p {
+  margin-bottom: 1em;
+  color: #444;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1; /* Smaller space for sidebar */
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.sidebar .related-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Spacing between related articles */
+}
+
+.sidebar .related-article img {
+  width: 40px; /* Circular images */
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.sidebar .related-headline {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+ }"
+5;"/* General Styles */
+@font-face {
+  font-family: 'DS Walbaumfraktur', serif; 
+}
+
+body {
+  font-family: 'Times New Roman', Georgia, serif; /* Elegant serif font */
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
+}
+
+/* Center Content */
+.container {
+  max-width: 1200px; /* Maximum width for content */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0px; /* Remove padding for cleaner alignment */
+}
+
+/* Header Section */
+header {
+  background-color: #ffffff; /* White background for header */
+  color: black;
+  border-bottom: 1px solid #ccc; /* Subtle border for separation */
+  padding: 10px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between; /* Spread elements evenly */
+  align-items: center; /* Center elements vertically */
+}
+
+/* Burger Menu Icon */
+header .burger-menu img {
+  width: 32px; /* Icon size */
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer; /* Make it clickable */
+}
+
+/* Logo Styling */
+header .logo {
+  font-family: 'Chomsky', serif; /* Use the locally stored Chomsky font */
+  font-size: 4em; /* Increase font size for prominence */
+  font-weight: normal; /* Standard weight for Chomsky */
+  text-transform: uppercase; /* All caps for professionalism */
+  color: #000; /* Black text */
+  margin: 0 auto; /* Center the logo */
+  text-align: center; /* Align text in the center */
+}
+
+/* User/Login Icon */
+header .user-icon img {
+  width: 32px; /* Standard icon size */
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer; /* Make it clickable */
+}
+
+/* Category Navigation Bar */
+.category-bar {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center; /* Center the category links */
+  gap: 15px; /* Spacing between categories */
+  font-family: 'Georgia', serif; /* Elegant serif font */
+}
+
+.category-bar .category a {
+  text-decoration: none;
+  color: #000; /* Black text */
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.category-bar .category a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Layout */
+.content-layout {
+  display: block; /* No flexbox since sidebar is removed */
+}
+
+/* Main Content */
+.main-content {
+  max-width: 1200px; /* Wider content width now that sidebar is removed */
+  margin: 40px auto; /* Center align and add spacing */
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px; /* Slightly rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.main-content h1 {
+  font-size: 3em; /* Larger headline font size */
+  font-weight: bold; /* Emphasized headline */
+  color: #333; /* Neutral dark color */
+  margin-bottom: 10px;
+}
+
+/* Author and Date */
+.main-content .meta-info {
+  font-size: 1em; /* Readable metadata font size */
+  color: #555; /* Muted gray color for metadata */
+  margin-bottom: 20px;
+  text-align: left; /* Align to the left */
+}
+
+/* Main Image */
+.main-content img {
+  width: 100%; /* Full width of the main content */
+  display: block;
+  margin: 20px auto; /* Center the image horizontally */
+  border-radius: 5px; /* Rounded corners for a modern look */
+}
+
+/* Article Text */
+.main-content p {
+  font-size: 1.1em; /* Slightly larger body text */
+  margin-bottom: 1em;
+  color: #444; /* Slightly muted text color */
+}
+
+/* Footer Section */
+footer {
+  background-color: #f9f9f9; /* Light gray background */
+  color: #666; /* Muted gray text */
+  text-align: center; /* Center align text */
+  padding: 20px;
+  font-size: 0.9em; /* Smaller font size */
+  border-top: 1px solid #ccc; /* Subtle top border */
+}"
+6;"/* General Styles */
+body {
+  font-family: 'Times New Roman', Georgia, serif; /* Elegant serif font */
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
+}
+
+/* Center Content */
+.container {
+  max-width: 1200px; /* Maximum width for content */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0px; /* Remove padding */
+}
+
+/* Header Section */
+header {
+  background-color: #000; /* Black background for header */
+  color: white;
+  padding: 20px 0; /* Vertical padding for spacing */
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between; /* Spread elements evenly */
+  align-items: center; /* Center elements vertically */
+}
+
+/* Logo Styling */
+header .logo {
+  font-family: 'Georgia', serif; /* Elegant serif font */
+  font-size: 3em; /* Large, impactful logo size */
+  font-weight: bold;
+  color: white; /* White logo text */
+  text-transform: uppercase; /* All caps for professionalism */
+  margin: 0 auto; /* Center the logo */
+  text-align: center; /* Align text in the center */
+}
+
+/* User/Login Icon */
+header .user-icon img {
+  width: 32px; /* Smaller, minimalistic size */
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer; /* Make it clickable */
+}
+
+/* Burger Menu Icon */
+header .burger-menu img {
+  width: 32px; /* Smaller, minimalistic size */
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer; /* Make it clickable */
+}
+
+/* Category Navigation Bar */
+.category-bar {
+  background-color: #f8f8f8; /* Light gray background */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center; /* Center the category links */
+  gap: 15px; /* Spacing between categories */
+  font-family: 'Georgia', serif; /* Serif font for elegance */
+  border-bottom: 1px solid #ccc; /* Subtle separator */
+}
+
+.category-bar .category a {
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Black text */
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase; /* Uniform style for categories */
+}
+
+.category-bar .category a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Main Content */
+.main-content {
+  max-width: 800px; /* Constrain main content width */
+  margin: 40px auto; /* Center align and add spacing */
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px; /* Slightly rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.main-content h1 {
+  font-size: 2.8em; /* Larger headline font size */
+  font-weight: bold; /* Emphasized headline */
+  color: #333; /* Neutral dark color */
+  margin-bottom: 10px;
+}
+
+/* Author and Date */
+.main-content .meta-info {
+  font-size: 1em; /* Readable metadata font size */
+  color: #555; /* Muted gray color for metadata */
+  margin-bottom: 20px;
+  text-align: left; /* Align to the left */
+}
+
+/* Main Image */
+.main-content img {
+  width: 90%; /* Set image width to 90% of the container */
+  display: block;
+  margin: 20px auto; /* Center the image horizontally */
+  border-radius: 5px; /* Rounded corners for a modern look */
+}
+
+/* Article Text */
+.main-content p {
+  font-size: 1.1em; /* Slightly larger body text */
+  margin-bottom: 1em;
+  color: #444; /* Slightly muted text color */
+}
+
+/* Footer Section */
+footer {
+  background-color: #000; /* Black footer background */
+  color: white;
+  text-align: center; /* Center align text */
+  padding: 20px;
+  font-size: 0.9em; /* Smaller font size */
+}"
+7;"/* General Styles */
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header Section */
+header {
+  background-color: #052962;
+  color: white;
+  padding: 20px 0; /* Increased depth */
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styling */
+header .logo {
+  font-family: 'Italiana', sans-serif;
+  font-size: 3.5em; /* Larger font size */
+  font-weight: normal;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+/* Burger Menu */
+.burger-menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+
+.burger-menu .lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 18px;
+}
+
+.burger-menu .lines div {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* 'Menu' Text */
+.burger-menu .menu-text {
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* User/Login Icon */
+header .user-icon img {
+  width: 32px; /* Standard icon size */
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer; /* Make it clickable */
+  display: none;
+}
+
+/* Category Bar */
+.category-bar {
+  background-color: #052962;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.1em; /* Slightly larger font size */
+  font-family: 'Italiana', sans-serif;
+}
+
+.category-bar .category {
+  position: relative;
+}
+
+.category-bar .category a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.category-bar .category:not(:last-child)::after {
+  content: \""\"";
+  display: block;
+  height: 16px;
+  width: 1px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+}
+
+.category-bar a:hover {
+  background-color: #003e80;
+  border-radius: 5px;
+}
+
+/* Content Layout */
+.container.content-layout {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: row-reverse; /* Sidebar on the left */
+}
+
+/* Main Content */
+.main-content {
+  flex: 3;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #052962;
+  font-family: 'Italiana', sans-serif;
+}
+
+.main-content img {
+  width: 90%; /* Image slightly smaller */
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.main-content p {
+  margin-bottom: 1.5em;
+  color: #444;
+}
+
+.meta-info {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Sidebar Section */
+.sidebar {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .related-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Reduced spacing */
+}
+
+.sidebar .related-article img {
+  width: 90%; /* Smaller images */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar .related-headline {
+  text-decoration: none;
+  color: #052962;
+  font-weight: bold;
+  font-family: 'Italiana', sans-serif;
+}
+
+.sidebar .related-headline:hover {
+  text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+  max-width: 1200px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 0.9em;
+}
+
+/* Social Media Bar */
+.social-media-bar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-media-bar a {
+  text-decoration: none;
+  color: #052962;
+  font-weight: bold;
+}
+
+.social-media-bar a:hover {
+  text-decoration: underline;
+}"
+8;"""/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Header Section */
+header {
+  background-color: #000; /* Black background */
+  color: white;
+  padding: 20px 0;
+  text-align: left; /* Align text to the left */
+  position: relative;
+}
+
+/* Title Styling */
+header .logo {
+  font-family: 'Unique', sans-serif;
+  font-size: 3.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  color: white;
+  position: absolute; /* Fixiert es innerhalb des Headers */
+  left: 20px;
+  top: 50%; /* Zentriert vertikal */
+  transform: translateY(-50%); /* Exakte Zentrierung */
+  margin: 0;
+  padding: 0;
+}
+
+/* First Letter Styling */
+header .logo::first-letter {
+  font-size: 1.8em; /* Slightly larger */
+  color: white; /* White letter */
+  background-color: black; /* Black box background */
+  padding: 5px 10px; /* Padding for the square */
+  margin-right: 5px; /* Add spacing from the rest of the text */
+  border: 2px solid white; /* White border around the box */
+  border-radius: 2px; /* Slightly rounded edges */
+  display: inline-block; /* Keep it inline */
+  text-align: center;
+}
+/* Category Bar */
+.category-bar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #000;
+  color: white;
+  padding: 15px 0;
+  position: relative;
+  margin-top: 10px; /* Falls nötig, um es nach unten zu schieben */
+}
+.category-bar a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1em; /* Slightly larger font for categories */
+  font-weight: bold;
+}
+
+.category-bar a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Layout */
+.container {
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Main Article Column */
+.main-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-family: 'Zeit', sans-serif; /* Use the locally installed font */
+}
+
+.main-content h1 {
+  font-size: 2.5em;
+  font-family: 'Zeit', sans-serif; /* Use the locally installed font */
+  
+}
+/* Main Image */
+.main-image {
+  width: 90%; /* Adjusted to 90% */
+  max-height: 400px;
+  object-fit: cover;
+  margin: 20px auto;
+  display: block; /* Center the image */
+  border-radius: 5px;
+}
+
+/* Meta Info */
+.meta-info {
+  font-size: 0.9em;
+  color: #777; /* Muted text for metadata */
+  margin-bottom: 20px;
+}
+
+/* Article Text */
+.main-content p {
+  margin-bottom: 1.5em;
+  color: #444;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
+  margin-top: 40px;
+}"""
