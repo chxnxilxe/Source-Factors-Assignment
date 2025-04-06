@@ -28,7 +28,7 @@ Die Einverständniserklärung wurde mit dem [Informed Consent Generator](https:/
 Inhaltlicher Aufbau eines Formulars:
 - Bewertung von 8 Artikeln (*Artikel 1*: 1 von 8 Reizen für den 1. Inputartikel, *Artikel 2*: 1 von 8 Reizen für den 2. Inputartikel)
 - Demographische Daten
-- Fragen zur Selbsteinschätzung (Grant, A. M.et al., 2002 und )
+- Fragen zur Selbsteinschätzung (Grant, A. M.et al., 2002 and Morgenroth, S. et al, 2021)
 
 ## Daten für die Studie
 ### Artikelgenerierung mit R-Studio (s. *Project*)
