@@ -44,7 +44,7 @@ Der Index muss von 1-8, 9-16, 17-24, 25-32 angepasst werden, um alle 32 Texte vo
 Die 64 fertigen Artikel wurden gescreenshottet und nach den Reizen in separaten Ordnern auf [Google Drive](https://drive.google.com/drive/folders/12vB-Tb_2l3PmFyk5MX5HoP9em54jEKbd?usp=sharing) geordnet.
 
 
-## Ergebnisse der Datenauswertung (s. *SPSS*)
+## Ergebnisse der Datenauswertung (s. *Ausgabe1.spv* und *Datensatz_Dennis.sav*)
 Für die Datenauswertung haben wir *SPSS* verwendet.
 Der Ordner enthält
 - Datensatz (Ergebnisse der Forms von Google Sheets)
