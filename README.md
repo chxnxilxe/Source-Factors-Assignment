@@ -1,17 +1,10 @@
 # Source Factors Assignment
 Abgabe für den Kurs *'Informationsverhalten verstehen und verarbeiten'*.
 
-Hier wurden die Daten für und von der Studie dokumentiert (nachträglich).
-
-## Overleaf-Projekt
-[Link zum Overleaf-Projekt](https://www.overleaf.com/read/fcmmprhfprfn#de472f
-)
-
+Hier wurden die Daten für und von der Studie nachträglich dokumentiert.
 
 ## Studie
 ### Appscript Projekt
-[Link zum Appscript-Projekt](https://script.google.com/d/12qTPKH99RxdrZaPnrXIHR_y1fZ7tqdMHAH6OesRuVW47habvdjR_W8pN/edit?usp=sharing
-)
 
 Die Web-App wurde mit *Google-Appscript* erstellt, die die Teilnehmenden zu einem der 8 Google Forms weiterleitet (zufällig).
 Inhaltlicher Aufbau:
@@ -20,9 +13,6 @@ Inhaltlicher Aufbau:
 - Weiterleitung zu einem der 8 Google-Forms
 
 ### Verlinkung zu Google-Forms
-[Link zum Google-Forms + Einverständniserklärung](https://drive.google.com/drive/folders/1Qjl_7AUZGGmSOF9uxcONkYxvLVjTEcDF?usp=sharing
-)
-
 Die Einverständniserklärung wurde mit dem [Informed Consent Generator](https://hci-studies.org/informed-consent-generator/) generiert.
 
 Inhaltlicher Aufbau eines Formulars:
